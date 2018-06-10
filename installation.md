@@ -13,7 +13,7 @@
 cluster.name: esdemo
 node.name: node-1
 ```
-* Check running: `http://localhost:9200` (`GET` request from postman)
+* Check running: windows services >> start elasticsearch >> `http://localhost:9200` (`GET` request from postman)
 * [Important Elasticsearch configuration](https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html)
 
 ## X-Pack for elasticsearch

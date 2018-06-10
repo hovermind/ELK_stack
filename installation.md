@@ -4,7 +4,7 @@
 ## Download elasticsearch & install as service
 * [elasticsearch zip](https://www.elastic.co/guide/en/elasticsearch/reference/current/zip-windows.html)   
 * unzip in ELK folder
-* right click on bin >> Open PowerShell Window Here
+* right click on bin folder of elasticsearch >> Open PowerShell Window Here
 * `.\elasticsearch-service.bat install`
 * `.\elasticsearch-service.bat manager` >> name your elasticsearch service
 * Config
@@ -16,7 +16,13 @@ node.name: node-1
 * Check running: `http://localhost:9200` (`GET` request from postman)
 * [Important Elasticsearch configuration](https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html)
 
-[x-pack]()   
+## X-Pack for elasticsearch
+* [x-pack zip](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/installing-xpack-es.html)
+* put zip in ELK folder (no need to unzip)
+* right click on bin folder of elasticsearch >> Open PowerShell Window Here
+* `.\elasticsearch-plugin install file:///C:/ELK/x-pack-6.2.4.zip`
+
+
 [kibana]()   
 [logstash]()   
 

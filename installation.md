@@ -21,9 +21,11 @@ node.name: node-1
 * put zip in ELK folder (no need to unzip)
 * right click on bin folder of elasticsearch >> Open PowerShell Window Here
 * `.\elasticsearch-plugin install file:///C:/ELK/x-pack-6.2.4.zip`
+* setup passwords: `x-pack/setup-passwords interactive -v` (i.e. 'espassword' for elastic)
+* restart elasticsearch from services
+* check with postman basic authentication: `http://localhost:9200`
 
-
-[kibana]()   
+[kibana](https://www.elastic.co/guide/en/kibana/current/windows.html)   
 [logstash]()   
 
 

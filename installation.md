@@ -21,7 +21,8 @@ node.name: node-1
 * put shakespeare.json in `C:/ELK`
 * right click on ELK folder >> Git Bash here
 * `curl -H "Content-Type: application/json" -XPOST 'localhost:9200/shakespeare/doc/_bulk?pretty' --data-binary @shakespeare.json`
-* [movies.json](http://media.sundog-soft.com/es/movies.json)(Import in same way as above)
+* [movies.json](http://media.sundog-soft.com/es/movies.json) (same as above: `curl -H "Content-Type: application/json" -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json`)
+
 ## [kibana](https://www.elastic.co/guide/en/kibana/current/windows.html)   
 
 ## X-Pack for elasticsearch

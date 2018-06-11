@@ -16,6 +16,13 @@ node.name: node-1
 * Check running: windows services >> start elasticsearch >> `http://localhost:9200` (`GET` request from postman)
 * [Important Elasticsearch configuration](https://www.elastic.co/guide/en/elasticsearch/reference/current/important-settings.html)
 
+#### Import test data
+[Download data & rename to shakespeare.json](http://media.sundog-soft.com/es6/shakespeare_6.0.json) or [download from here](https://www.elastic.co/guide/en/kibana/3.0/snippets/shakespeare.json)
+* put shakespeare.json in `C:/ELK`
+* right click on ELK folder >> Git Bash here
+* `curl -H "Content-Type: application/json" -XPOST 'localhost:9200/shakespeare/doc/_bulk?pretty' --data-binary @shakespeare.json`
+
+
 ## X-Pack for elasticsearch
 * [x-pack zip](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/installing-xpack-es.html)
 * put zip in ELK folder (no need to unzip)

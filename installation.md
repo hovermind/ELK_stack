@@ -1,7 +1,7 @@
 * Install JDK and set `JAVA_HOME` environment variable (C:\Program Files\Java\jdk1.8.0_172)
 * Create a folder in `C:` drive named `ELK`    
 
-## Download elasticsearch & install as service
+## Elasticsearch
 * [elasticsearch zip](https://www.elastic.co/guide/en/elasticsearch/reference/current/zip-windows.html)   
 * unzip in ELK folder
 * right click on bin folder of elasticsearch >> Open PowerShell Window Here
@@ -23,9 +23,14 @@ node.name: node-1
 * `curl -H "Content-Type: application/json" -XPOST 'localhost:9200/shakespeare/doc/_bulk?pretty' --data-binary @shakespeare.json`
 * [movies.json](http://media.sundog-soft.com/es/movies.json) (same as above: `curl -H "Content-Type: application/json" -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json`)
 
-## [kibana](https://www.elastic.co/guide/en/kibana/current/windows.html)   
+## Kibana
+## [Download kibana](https://www.elastic.co/guide/en/kibana/current/windows.html)   
 
-## X-Pack for elasticsearch
+## Logstash
+[Download logstash](https://www.elastic.co/downloads/logstash)   
+
+## Security
+#### X-Pack for elasticsearch
 * [x-pack zip](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/installing-xpack-es.html)
 * put zip in ELK folder (no need to unzip)
 * right click on bin folder of elasticsearch >> Open PowerShell Window Here
@@ -33,8 +38,3 @@ node.name: node-1
 * setup passwords: `x-pack/setup-passwords interactive -v` (i.e. 'espassword' for elastic)
 * restart elasticsearch from services
 * check with postman basic authentication: `http://localhost:9200`
-
-
-[logstash]()   
-
-

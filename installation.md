@@ -27,7 +27,10 @@ node.name: node-1
 [Download kibana zip](https://www.elastic.co/guide/en/kibana/current/windows.html)   
 
 ## Logstash
-[Download logstash zip](https://www.elastic.co/downloads/logstash)   
+* [Download logstash zip](https://www.elastic.co/downloads/logstash)   
+* Prepare a logstash.conf config file
+* right click on bin folder of logsatsh >> Open PowerShell Window Here
+* `.\logstash.bat -f logstash.conf`
 
 ## Security
 #### X-Pack for elasticsearch

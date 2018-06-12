@@ -24,10 +24,10 @@ node.name: node-1
 * [movies.json](http://media.sundog-soft.com/es/movies.json) (same as above: `curl -H "Content-Type: application/json" -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json`)
 
 ## Kibana
-## [Download kibana](https://www.elastic.co/guide/en/kibana/current/windows.html)   
+[Download kibana zip](https://www.elastic.co/guide/en/kibana/current/windows.html)   
 
 ## Logstash
-[Download logstash](https://www.elastic.co/downloads/logstash)   
+[Download logstash zip](https://www.elastic.co/downloads/logstash)   
 
 ## Security
 #### X-Pack for elasticsearch

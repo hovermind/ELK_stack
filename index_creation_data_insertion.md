@@ -25,4 +25,4 @@ POST index_name/type_name/id
 {
     // json data that conforms to mapping scheme of index
 }
-``
+```

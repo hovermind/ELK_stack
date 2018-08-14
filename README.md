@@ -3,5 +3,5 @@
 * [Creating Index and Inserting Data](https://github.com/hovermind/ELK_stack/blob/master/index_creation_data_insertion.md)
 * [Mapping](https://github.com/hovermind/ELK_stack/blob/master/mapping.md)
 * [Mapping for Nested JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_nested_object.md)
-* [Mapping for Array of JSON Objects](#)
+* [Mapping for Array of JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_object_array.md)
 * [Checking Info](https://github.com/hovermind/ELK_stack/blob/master/checking_info.md)

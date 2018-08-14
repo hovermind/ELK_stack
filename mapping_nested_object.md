@@ -37,3 +37,22 @@ PUT international_company
   }
 }
 ```
+**Note**    
+For better understanding you can use `"type":"object"` for nested JSON objects:
+```
+{
+  "mappings": {
+    "_doc": { 
+      "properties": {
+        ... ...
+        "company": {
+	  "type" : "object",
+          "properties": {
+            ... ...
+          }
+        }
+      }
+    }
+  }
+}
+```

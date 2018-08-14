@@ -15,7 +15,7 @@ It is very important to define the mapping after we create an index — an inapp
 
 **See:**   
 * [RDBMS vs Elasticsearch](#)
-* [Mapping Fields Data Types](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html#mapping-types)
+* [Mapping Fields Data Types](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
 
 **Creating index and assigning mapping (Kibana Devtools):**
 ```

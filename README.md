@@ -1,5 +1,6 @@
 * [Introduction to ELK stack](https://github.com/hovermind/ELK_stack/blob/master/elk_intro.md)
 * [Installation](https://github.com/hovermind/ELK_stack/blob/master/installation.md)
+* [ElasticSearch vs RDBMS](https://github.com/hovermind/ELK_stack/blob/master/rdbms_vs_es.md)
 * [Creating Index and Inserting Data](https://github.com/hovermind/ELK_stack/blob/master/index_creation_data_insertion.md)
 * [Mapping](https://github.com/hovermind/ELK_stack/blob/master/mapping.md)
   * [Mapping for Nested JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_nested_object.md)

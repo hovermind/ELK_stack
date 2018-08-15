@@ -27,4 +27,19 @@ PUT user
     }
   }
 }
+
+PUT user/_doc/1
+{
+	"id": 1, 
+	"name": "tareq hassan", 
+	"age": 28
+}
+
+
+GET user/_doc/1
+{
+	"id": 1, 
+	"name": "tareq hassan", 
+	"age": 28
+}
 ```

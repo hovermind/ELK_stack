@@ -7,7 +7,9 @@
 | row           | doc (document)|
 | column        | fields/properties|
 
-#### Database Table ~ ElasticSearch Index
+See: [Mapping concepts across SQL and Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html)
+
+## Database Table ~ ElasticSearch Index
 | id            | name          | age           |
 |---------------|---------------|---------------|
 | 1             | tareq hassan  | 28            |

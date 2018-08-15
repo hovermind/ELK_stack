@@ -14,7 +14,7 @@ Although Elasticsearch is schemeless, mapping defines how a document is indexed 
 It is very important to define the mapping after we create an index — an inappropriate preliminary definition and mapping may result in the wrong search results   
 
 **See:**   
-* [RDBMS vs Elasticsearch](#)
+* [RDBMS vs Elasticsearch](https://github.com/hovermind/ELK_stack/blob/master/rdbms_vs_es.md)
 * [Mapping Fields Data Types](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html)
 
 **Creating index and assigning mapping (Kibana Devtools):**

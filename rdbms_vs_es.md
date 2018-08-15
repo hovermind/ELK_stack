@@ -7,13 +7,12 @@
 | row           | doc (document)|
 | column        | fields/properties|
 
-#### Database Table - user
+#### Database Table ~ ElasticSearch Index
 | id            | name          | age           |
 |---------------|---------------|---------------|
 | 1             | tareq hassan  | 28            |
 | 2             | hover mind    | 30            |
-
-#### ElasticSearch Index - user 
+ 
 ```
 PUT user
 {
@@ -23,23 +22,23 @@ PUT user
         "id": { "type": "integer"  }, 
         "name": { "type": "string"  }, 
         "age": { "type": "integer" }
-	  }
+      }
     }
   }
 }
 
 PUT user/_doc/1
 {
-	"id": 1, 
-	"name": "tareq hassan", 
-	"age": 28
+    "id": 1, 
+    "name": "tareq hassan", 
+    "age": 28
 }
 
 
 GET user/_doc/1
 {
-	"id": 1, 
-	"name": "tareq hassan", 
-	"age": 28
+    "id": 1, 
+    "name": "tareq hassan", 
+    "age": 28
 }
 ```

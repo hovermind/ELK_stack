@@ -36,4 +36,4 @@ Possible causes:
     "status": 400
 }
 ```
-See:[Before enabling fielddata](https://www.elastic.co/guide/en/elasticsearch/reference/current/fielddata.html#before-enabling-fielddata)
+See: [Before enabling fielddata](https://www.elastic.co/guide/en/elasticsearch/reference/current/fielddata.html#before-enabling-fielddata)

@@ -20,7 +20,7 @@ Possible causes:
         "failed_shards": [
             {
                 "shard": 0,
-                "index": "devboxbennet-1",
+                "index": "my-index"
                 "node": "VbXshdquSwqnaeSD02K7vQ",
                 "reason": {
                     "type": "illegal_argument_exception",
@@ -36,3 +36,4 @@ Possible causes:
     "status": 400
 }
 ```
+See:[Before enabling fielddata](https://www.elastic.co/guide/en/elasticsearch/reference/current/fielddata.html#before-enabling-fielddata)

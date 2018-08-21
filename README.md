@@ -6,3 +6,9 @@
   * [Mapping for Nested JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_nested_object.md)
   * [Mapping for Array of JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_object_array.md)
 * [Checking Info](https://github.com/hovermind/ELK_stack/blob/master/checking_info.md)
+* Searching
+  * [Kibana Dev Tool](#)
+  * [URI search](#)
+* [Aggregation](#)
+  * [Nestad Aggregation](#)
+  * [Nestad Aggregation by Index](#)

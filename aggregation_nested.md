@@ -28,11 +28,11 @@ GET index/_search
       "aggs": {
         "aggs-name-nested-1": {
         "terms": { "field": "field-name" },
-         "aggs":{
+          "aggs":{
             "aggs-name-nested-2": {
               "avg": { "field": "amount" }
             }
-         }
+          }
         }
       }
     }

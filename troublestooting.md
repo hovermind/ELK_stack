@@ -37,3 +37,6 @@ Possible causes:
 }
 ```
 See: [Before enabling fielddata](https://www.elastic.co/guide/en/elasticsearch/reference/current/fielddata.html#before-enabling-fielddata)
+
+## Mapping type `_`
+`_` can only be used in mapping type for 'doc' i.e `_doc` (`_x` is wrong where x = anything other that 'doc')

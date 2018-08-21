@@ -8,7 +8,7 @@
 * [Checking Info](https://github.com/hovermind/ELK_stack/blob/master/checking_info.md)
 * Searching
   * [Kibana Dev Tools - request body search](#)
-  * [URI search](#)
+  * [URI search](https://github.com/hovermind/ELK_stack/blob/master/uri_search.md)
 * [Aggregation](#)
   * [Nestad Aggregation](#)
   * [Nestad Aggregation by Index](#)

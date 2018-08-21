@@ -7,7 +7,7 @@
   * [Mapping for Array of JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_object_array.md)
 * [Checking Info](https://github.com/hovermind/ELK_stack/blob/master/checking_info.md)
 * Searching
-  * [Kibana Dev Tool](#)
+  * [Kibana Dev Tools - request body search](#)
   * [URI search](#)
 * [Aggregation](#)
   * [Nestad Aggregation](#)

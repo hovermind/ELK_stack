@@ -14,3 +14,4 @@
   * [Nestad Aggregation](https://github.com/hovermind/ELK_stack/blob/master/aggregation_nested.md)
   * [Nestad Aggregation by Index](https://github.com/hovermind/ELK_stack/blob/master/aggregation_nested.md#bucket-aggs-by-index)
   * [Aggs with Multi-Field](https://github.com/hovermind/ELK_stack/blob/master/multi-field.md)
+* [Troublestooting](https://github.com/hovermind/ELK_stack/blob/master/troublestooting.md)

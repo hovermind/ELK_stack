@@ -31,6 +31,18 @@ PUT my_index
     }
   }
 }
+
+// OR
+PUT twitter 
+
+PUT twitter/_mapping/_doc 
+{
+  "properties": {
+    "email": {
+      "type": "keyword"
+    }
+  }
+}
 ```
 **Example**
 ```

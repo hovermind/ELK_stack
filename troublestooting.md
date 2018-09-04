@@ -2,6 +2,9 @@
 * when inserting data using `/_bulk` api (`curl -XPOST ... @data.json`) the file must terminate with new line
 
 ## Fielddata is disabled on text fields by default
+You are trying to use text fields (in your mapping) for aggregations/sorting which does not work. You can only run aggregations/sorting on keyword fields. Solution: [Use Multi-Field](https://github.com/hovermind/ELK_stack/blob/master/multi-field.md)
+
+## Fielddata is disabled on text fields by default
 Possible causes:
 * Did not use mapping while creating index and therefore ES used dynamic mapping (during `_bulk` insertion) & ES used type `text` for `keyword` field - now you are trying to execute aggregation queries on that field (fied type should be `keyword` but dynamic mapping used `text`)
 ```
@@ -38,5 +41,5 @@ Possible causes:
 ```
 See: [Before enabling fielddata](https://www.elastic.co/guide/en/elasticsearch/reference/current/fielddata.html#before-enabling-fielddata)
 
-## Mapping type `_`
+## `_` in Mapping Type
 `_` can only be used in mapping type for 'doc' i.e `_doc` (`_x` is wrong where x = anything other that 'doc')

@@ -5,6 +5,7 @@
 * [Mapping](https://github.com/hovermind/ELK_stack/blob/master/mapping.md)
   * [Mapping for Nested JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_nested_object.md)
   * [Mapping for Array of JSON Objects](https://github.com/hovermind/ELK_stack/blob/master/mapping_object_array.md)
+  * [Multi-Index Mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html#_multi_index)
 * [Checking Info](https://github.com/hovermind/ELK_stack/blob/master/checking_info.md)
 * Searching
   * [Kibana Dev Tools - request body search](#)

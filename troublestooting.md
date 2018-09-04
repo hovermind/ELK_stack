@@ -4,7 +4,6 @@
 ## Fielddata is disabled on text fields by default
 You are trying to use text fields (in your mapping) for aggregations/sorting which does not work. You can only run aggregations/sorting on keyword fields. Solution: [Use Multi-Field](https://github.com/hovermind/ELK_stack/blob/master/multi-field.md)
 
-## Fielddata is disabled on text fields by default
 Possible causes:
 * Did not use mapping while creating index and therefore ES used dynamic mapping (during `_bulk` insertion) & ES used type `text` for `keyword` field - now you are trying to execute aggregation queries on that field (fied type should be `keyword` but dynamic mapping used `text`)
 ```

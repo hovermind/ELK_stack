@@ -1,3 +1,5 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](http://paypal.me/hovermind/10usd)
+
 * [Introduction to ELK stack](https://github.com/hovermind/ELK_stack/blob/master/elk_intro.md)
 * [Installation](https://github.com/hovermind/ELK_stack/blob/master/installation.md)
 * [RDBMS vs ElasticSearch](https://github.com/hovermind/ELK_stack/blob/master/rdbms_vs_es.md)
